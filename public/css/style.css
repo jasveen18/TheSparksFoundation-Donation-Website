@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url("../images/pic1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+/*home page*/
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.Nav-content {
+    display: flex;
+    margin-right: 50px;
+}
+
+.Nav-content ul {
+    display: flex;
+}
+
+.Nav-content ul li {
+    display: flex;
+    list-style: none;
+}
+
+.Nav-content ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: #f5f7f8;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+
+.main{
+    text-align: center;
+}
+
+.heading{
+    font-size: 50px;
+    font-family: 'Spartan', sans-serif ;
+    font-weight: bold;
+    color: #ecec2f;
+}
+
+.tag{
+    font-size: 30px;
+    margin: 10px;
+    color: #fcfc20;
+}
+
+.about{
+    margin-top: 55px;
+}
+
+.about-right {
+    display: flex;
+    justify-content: center;
+}
+
+.about-right div {
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgb(55 57 60);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.mid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 15px 0px;
+    padding: 20px;
+}
+
+
+
+.mid-btn {
+    margin: auto;
+    padding: 30px;
+}
+
+.btn {
+    padding: 13px;
+    width: 150px;
+    cursor: pointer;
+    background-color: #c4e6ff;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+}
+
+.btn a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(18, 10, 31);
+}
+
+
+
+
+/*donation page*/
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav-content ul li a {
+    color: white;
+}
+
+.description{
+display: flex;
+justify-content: center;
+align-items: center
+}
+
+.donation{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    height: 60vh;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2rem 5rem 0 rgb(252 162 17 / 10%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+
+
+footer {
+    background: black;
+    position: fixed;
+    padding: 5px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+
+}
+
